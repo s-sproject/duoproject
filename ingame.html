@@ -2,10 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <link rel="stylesheet" href="ingame.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>battle cards</title>
 </head>
 <body>
     <div id="leftside" class="split left">
@@ -15,10 +16,25 @@
        <div class="scorebox me"><h2>score:<span></span></h2></div>
     </div>
     <div id="rightside" class="split right">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="playercard">
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="backcard"></div>
+        </div>
+        <div id="comparecards">
+        <div class="placementcard"></div>
+        <div>
+            <button id="battle">BATTLE</button>
+        </div>
+        <div class="placementcard"></div>
+    </div>
+        <div class="playercard">
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="backcard"></div>
+        </div>
     </div>
 <script src="ingame.js"></script>
 </body>

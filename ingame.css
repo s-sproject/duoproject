@@ -2,10 +2,7 @@
     height: 100%;
     width: 100%;
     position: fixed;
-    /* z-index: -1; */
     top: 0;
-    /* overflow-x: hidden;
-    padding-top: 20px; */
   }
   
 .left {
@@ -31,17 +28,21 @@
     margin-bottom: 10px;
     width:200px;
     height: 70px;
-    background-color: white;
+    background-color: transparent;
+    border: solid white 2px;
     border-radius: 40px;
+    box-shadow: 2px 2px 2px;
   }
  .display{
-    background-color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    border: solid 2px white;
+    box-shadow: 2px 2px 2px ;
+
  }
  .card{
     height: 350px ;
     width: 250px;
-    border: solid;
-    border-radius: 20px;
     background-image: url("./images/sabo.png");
     background-size: 260px 350px;
 
@@ -49,14 +50,62 @@
  .desc{
     width: 250px;
     height: 150px;
-    border: solid; 
-    border-radius: 25px;
-    background-color: transparent;
+   
  }
  #rightside{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
     background-image: url("https://th.bing.com/th/id/R.6d2d6f68073cf24172b8d25876f1cf85?rik=lYClKNQNRKco0w&pid=ImgRaw&r=0");
     background-size:cover;
-    border: solid white 5px;
+    border: solid white 10px;
     border-radius: 5px;
-    border-width: 3px;
+    border-width: 5px;
+ }
+ .playercard{
+   margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 30px;
+ }
+ .cards{
+   height: 140px;
+   width: 110px;
+   border: solid white 2px;
+   background-color: transparent;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px;
+ }
+ .placementcard{
+   height: 160px;
+   width: 110px;
+   border: solid white 2px;
+   background-color: transparent;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px;
+ }
+ #comparecards{
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+   gap: 8px;
+ }
+ .backcard{
+   height: 80px;
+   width: 200px;
+   background-color: transparent;
+   border: solid white 2px;  
+   border-radius: 10px;
+ }
+ #battle{
+   height:25px;
+   width:100px;
+   color: white;
+   border: solid white 2px;
+   border-radius: 50px;
+   background-color:crimson;
+   box-shadow: 2px 2px 2px black;
  }
