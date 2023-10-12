@@ -10,30 +10,31 @@
 </head>
 <body>
     <div id="leftside" class="split left">
-       <div class="scorebox ai"><h2>score:<span></span></h2></div>
-        <div class="card display"></div>
+       <div class="scorebox ai"><h2>HP:<span></span></h2></div>
+        <img class="card display"></img>
         <div class="desc display"></div>
-       <div class="scorebox me"><h2>score:<span></span></h2></div>
+       <div class="scorebox me"><h2>HP:<span></span></h2></div>
     </div>
     <div id="rightside" class="split right">
-        <div class="playercard">
-            <div class="cards"></div>
-            <div class="cards"></div>
-            <div class="cards"></div>
-            <div class="backcard"></div>
+        <div class="playercard dropcard">
+            <img src="./images/backside.jpg" class="cards top"></img>
+            <img src="./images/backside.jpg" class="cards top"></img>
+            <img src="./images/backside.jpg" class="cards top"></img>
+            <img src="./images/backside.jpg" class="backcard"></img>
         </div>
         <div id="comparecards">
-        <div class="placementcard"></div>
+        <img id="enemycard" class="placementcard"></img>
         <div>
             <button id="battle">BATTLE</button>
         </div>
-        <div class="placementcard"></div>
+        <img id="mycard" class="placementcard"></img>
     </div>
         <div class="playercard">
-            <div class="cards"></div>
-            <div class="cards"></div>
-            <div class="cards"></div>
-            <div class="backcard"></div>
+            <button class="getcard">GET CARDS</button>
+            <img class="cards card-1 click" ></img>
+            <img class="cards card-2 click"></img>
+            <img class="cards card-3 click"></img>
+            <img src="./images/backside.jpg" class="backcard"></img>
         </div>
     </div>
 <script src="ingame.js"></script>
