@@ -1,0 +1,157 @@
+.split {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+.left {
+    width: 30%;
+    left: 0;
+    background-image: url("https://th.bing.com/th/id/OIP.HfdB1Npz2uhF8DZyRZgBIQHaQD?pid=ImgDet&w=1080&h=2340&rs=1");
+   background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: solid black 5px;
+    border-width: 3px;
+}
+.right {
+    width: 70%;
+    right: 0;
+  }
+  .scorebox{
+   display: flex;
+   justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:200px;
+    height: 70px;
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.332);
+    color: white;
+  }
+ .display{
+    background-color:rgba(0, 0, 0, 0.433);
+    border-radius: 20px;
+    border: solid 2px white;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+
+ }
+ .card{
+    height: 350px ;
+    width: 250px;
+    object-fit: cover;
+
+ }
+ .desc{
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ #rightside{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+    background-image: url("https://th.bing.com/th/id/R.6d2d6f68073cf24172b8d25876f1cf85?rik=lYClKNQNRKco0w&pid=ImgRaw&r=0");
+    background-size:cover;
+    border: solid black 10px;
+    border-radius: 5px;
+    border-width: 5px;
+ }
+ .playercard{
+   margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 30px;
+   cursor: pointer;
+   object-fit: cover;
+ }
+.playercard img:hover{
+scale: 1.1; 
+}
+ .cards{
+   height: 140px;
+   width: 110px;
+   border: solid white 2px;
+   background-color: transparent;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px;
+ }
+ .placementcard{
+   height: 160px;
+   width: 110px;
+   border: solid white 2px;
+   background-color: transparent;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px;
+   cursor: pointer;
+ }
+ .placementcard:hover{
+   scale: 1.1;
+ }
+ #comparecards{
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+   gap: 8px;
+ }
+ .backcard{
+   height: 140px;
+   width: 110px;
+   background-color: transparent;  
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px;
+   margin-left: 80px;
+   object-fit: cover;
+ }
+ .backcard:hover{
+   scale:1.1;
+ }
+ .top{
+   object-fit: cover;
+ }
+ #battle{
+   height:25px;
+   width:100px;
+   color: white;
+   border: solid white 2px;
+   border-radius: 50px;
+   background-color:rgba(0, 0, 0, 0.332);
+   box-shadow: 2px 2px 2px black;
+   cursor: pointer;
+ }
+ #battle:hover{
+   background-color: red;
+ }
+ .getcard{
+   height: 80px;
+   width:100px;
+   margin-right: 80px;
+   border: solid white 2px;
+   border-radius: 30px;
+   background-color: rgba(0, 0, 0, 0.332);
+   color:white;
+   margin-top: 30px;
+   cursor: pointer;
+   box-shadow: 2px 2px 2px black;
+ }
+ .getcard:hover{
+   background-color: red;
+ }
+ .dropcard{
+   margin-left: 210px;
+ }

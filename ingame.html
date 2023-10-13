@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="ingame.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>battle cards</title>
+</head>
+<body>
+    <div id="leftside" class="split left">
+       <div class="scorebox ai"><h2>HP:<span>5000</span></h2></div>
+        <img src="./images/backside.jpg" class="card display"></img>
+        <div id="roundres" class="desc display"></div>
+       <div class="scorebox me"><h2>HP:<span>5000</span></h2></div>
+    </div>
+    <div id="rightside" class="split right">
+        <div class="playercard dropcard">
+            <img src="./images/backside.jpg" class="cards top"></img>
+            <img src="./images/backside.jpg" class="cards top"></img>
+            <img src="./images/backside.jpg" class="cards top"></img>
+            <img src="./images/backside.jpg" class="backcard"></img>
+        </div>
+        <div id="comparecards">
+        <img id="enemycard" class="placementcard"></img>
+        <div>
+            <button id="battle">BATTLE</button>
+        </div>
+        <img id="mycard" class="placementcard"></img>
+    </div>
+        <div class="playercard">
+            <button class="getcard">GET CARDS</button>
+            <img class="cards card-1 click" ></img>
+            <img class="cards card-2 click"></img>
+            <img class="cards card-3 click"></img>
+            <img src="./images/backside.jpg" class="backcard"></img>
+        </div>
+    </div>
+<script src="ingame.js"></script>
+</body>
+</html>
