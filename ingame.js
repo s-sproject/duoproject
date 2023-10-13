@@ -6,8 +6,9 @@ power:[7000,7000,5000,8000,4000,4000,0,10000,12000,8000,1000,1000,2000,6000,1200
  }
 var myhp=5000
 var enemyhp=5000
-
-
+//controll volume
+document.getElementById("vol").volume=0.2
+//
  function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
