@@ -15,8 +15,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    border: solid white 5px;
-    border-radius: 5px;
+    border: solid black 5px;
     border-width: 3px;
 }
 .right {
@@ -38,23 +37,27 @@
     color: white;
   }
  .display{
-    background-color: transparent;
+    background-color:rgba(0, 0, 0, 0.433);
     border-radius: 20px;
     border: solid 2px white;
-    box-shadow: 2px 2px 2px ;
+    box-shadow: 2px 2px 2px black;
+    color: white;
 
  }
  .card{
     height: 350px ;
     width: 250px;
-    background-image: url("./images/sabo.png");
-    background-size: 260px 350px;
+    object-fit: cover;
 
  }
  .desc{
     width: 250px;
     height: 150px;
-   
+    padding: 20px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
  #rightside{
    display: flex;
@@ -62,7 +65,7 @@
    gap: 5px;
     background-image: url("https://th.bing.com/th/id/R.6d2d6f68073cf24172b8d25876f1cf85?rik=lYClKNQNRKco0w&pid=ImgRaw&r=0");
     background-size:cover;
-    border: solid white 10px;
+    border: solid black 10px;
     border-radius: 5px;
     border-width: 5px;
  }
